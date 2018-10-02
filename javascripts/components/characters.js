@@ -13,7 +13,7 @@ const characterClick = (e) => {
         return x.id === characterId
     })
     console.log('currentCharacter', currentCharacter);
-}
+};
 
 const createEvents = () => {
     const characterCards = document.getElementsByClassName('character-card');
