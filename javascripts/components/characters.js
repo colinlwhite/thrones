@@ -7,11 +7,25 @@ const characters = [
     {id:'character4', name: 'Doran', house: 'Martell', imageURL: 'https://vignette.wikia.nocookie.net/gameofthrones/images/f/f9/Profile-DoranMartell.png/revision/latest?cb=20170728221257'}
 ];
 
+const characterClick = (e) => {
+    const characterId = e.target.closest('.character-card').id;
+    const currentCharacter = characters.find((x) => {
+        return x.id === characterId
+    })
+    console.log('currentCharacter', currentCharacter);
+}
+
+const createEvents = () => {
+    const characterCards = document.getElementsByClassName('character-card');
+    for (let i = 0; i < characterCards.length; i++) {
+        characterCards[i].addEventListener('click', characterClick);
+    }
+};
 
 const charactersBuilder = () => {
     let domString = '';
     characters.forEach((character) => {
-        domString += `<div class="col-2 character">`
+        domString += `<div class="col-2 character-card" id="${character.id}">`
         domString += `<div class="card">`;
         domString += `<img class="card-img-top img" src="${character.imageURL}" alt="${character.name}">`;
         domString += `<div class="card-body">`;
@@ -21,6 +35,7 @@ const charactersBuilder = () => {
         domString += `</div>`;
     })
     printToDom(domString);
+    createEvents();
 };
 
 export {charactersBuilder};
