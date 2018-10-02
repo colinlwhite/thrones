@@ -1,4 +1,5 @@
 import { printToDom } from "../helpers/util.js";
+import {detailsBuilder} from "./detail.js"
 
 const characters = [
     {id:'character1', name: 'Robin', house: 'Arryn', imageURL: 'https://imagesvc.timeincapp.com/v3/fan/image?url=https%3A%2F%2Fwinteriscoming.net%2Ffiles%2F2017%2F07%2FScreen-Shot-2017-07-11-at-12.36.25-PM.jpg&c=sc&w=736&h=485'},
@@ -12,7 +13,8 @@ const characterClick = (e) => {
     const currentCharacter = characters.find((x) => {
         return x.id === characterId
     })
-    console.log('currentCharacter', currentCharacter);
+    detailsBuilder(currentCharacter);
+    //console.log('currentCharacter', currentCharacter);
 };
 
 const createEvents = () => {
