@@ -13,7 +13,7 @@ const charactersBuilder = () => {
     characters.forEach((character) => {
         domString += `<div class="col-2 character">`
         domString += `<div class="card">`;
-        domString += `<img class="card-img-top" src="${character.imageURL}" alt="${character.name}">`;
+        domString += `<img class="card-img-top img" src="${character.imageURL}" alt="${character.name}">`;
         domString += `<div class="card-body">`;
         domString += `<h5 class="card-title">${character.name}</h5>`;
         domString += `</div>`;
