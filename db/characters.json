@@ -1,0 +1,64 @@
+{
+    "characters": [
+        {
+            "id":"character1", 
+            "name": "Robin", 
+            "house": "Arryn", 
+            "imageURL": "https://imagesvc.timeincapp.com/v3/fan/image?url=https%3A%2F%2Fwinteriscoming.net%2Ffiles%2F2017%2F07%2FScreen-Shot-2017-07-11-at-12.36.25-PM.jpg&c=sc&w=736&h=485"
+        },
+        {
+            "id":"character2", 
+            "name": "Edmure", 
+            "house": "Tully", 
+            "imageURL": "http://i.lv3.hbo.com/assets/images/series/game-of-thrones/character/s3/blackfish-tully-1024.jpg"
+        },
+        {
+            "id":"character3", 
+            "name": "Rickard", 
+            "house": "Stark", 
+            "imageURL": "https://media1.popsugar-assets.com/files/thumbor/sUpIi0hjSKVgYeaE74-4g7AHiJ8/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2017/07/24/805/n/1922283/49869b39593b8e77_736624c75976302c2ebe73.51642632_edit_img_facebook_post_image_file_15913477_1500917045.jpg"
+        },
+        {
+            "id":"character4", 
+            "name": "Doran", 
+            "house": "Martell", 
+            "imageURL": "https://vignette.wikia.nocookie.net/gameofthrones/images/f/f9/Profile-DoranMartell.png/revision/latest?cb=20170728221257"
+        },
+        {
+            "id":"character5", 
+            "name": "Hoster", 
+            "house": "Tully", 
+            "imageURL": "https://www.earnthenecklace.com/wp-content/uploads/2016/05/Blackfish--300x300.jpg"
+        },
+        {
+            "id":"character6", 
+            "name": "Arya", 
+            "house": "Stark", 
+            "imageURL": "https://i.imgur.com/ZC9jpJT.gif?1"
+        },
+        {
+            "id":"character7", 
+            "name": "Luthor", 
+            "house": "Tyrell", 
+            "imageURL": "https://metrouk2.files.wordpress.com/2017/04/macetyrrell.jpg?quality=80&strip=all"
+        },
+        {
+            "id":"character8", 
+            "name": "Eddard", 
+            "house": "Stark", 
+            "imageURL": "https://d919ce141ef35c47fc40-b9166a60eccf0f83d2d9c63fa65b9129.ssl.cf5.rackcdn.com/images/147506.2e16d0ba.fill-300x300.jpg"
+        },
+        {
+            "id":"character9", 
+            "name": "Tywin", 
+            "house": "Lannister", 
+            "imageURL": "https://www.earnthenecklace.com/wp-content/uploads/2016/05/Game-of-Thrones-300x300.jpg"
+        },
+        {
+            "id":"character10", 
+            "name": "Benjen", 
+            "house": "Stark", 
+            "imageURL": "https://www.earnthenecklace.com/wp-content/uploads/2017/08/benjen-stark-300x300.jpg"
+        }
+    ]
+}
